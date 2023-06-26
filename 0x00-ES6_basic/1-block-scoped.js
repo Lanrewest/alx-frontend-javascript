@@ -3,11 +3,10 @@ export default function taskBlock(trueOrFalse) {
   var task2 = true;
 
   if (trueOrFalse) {
-    let innerTask = true;
-    let innerTask2 = false;
+    let task = true;
+    let task2 = false;
 
-    task = innerTask;
-    task2 = innerTask2;
+    return [task, task2];
   }
 
   return [task, task2];
